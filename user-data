@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: suryastef
+    groups: sudo
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    plain_text_passwd: cyborg
+    lock_passwd: false
+chpasswd: { expire: False }
+ssh_pwauth: True
