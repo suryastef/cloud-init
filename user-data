@@ -3,9 +3,12 @@ users:
   - name: suryastef
     groups: sudo
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
-    plain_text_passwd: cyborg
+    plain_text_passwd: <unencrypted password>
     lock_passwd: false
     shell: /bin/bash
+    ssh_authorized_keys:
+      - <ssh public key 1>
+      - <ssh public key 2>
 chpasswd: { expire: False }
 ssh_pwauth: True
 
