@@ -15,3 +15,5 @@ Some images can be downloaded from:
 - [Debian](https://cdimage.debian.org/cdimage/cloud/)
 - [Ubuntu](https://cloud-images.ubuntu.com/releases)
 - [CentOS](https://cloud.centos.org/centos/7/images/)
+
+This is minimal init config used by me, more detailed can be found at [Read The Docs](https://cloudinit.readthedocs.io/en/latest/topics/examples.html)
